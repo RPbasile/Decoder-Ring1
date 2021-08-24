@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "docker:run",
+			"path": "Project_Decoder_Ring_1/",
+			"problemMatcher": [],
+			"label": "npm: docker:run - Project_Decoder_Ring_1",
+			"detail": "docker run --rm -it -p 3000:3000 thinkful-ed/zid-pf-project-decoder-ring-01-qualified"
+		}
+	]
+}
